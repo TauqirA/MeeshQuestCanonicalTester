@@ -2,8 +2,8 @@
 Automatically using MeeshQuest Canonical Output from user Input. Runs mutiple tests based upon id. 
 
 External JARs required:
-https://code.google.com/archive/p/java-diff-utils/
-https://jsoup.org/download
+* https://code.google.com/archive/p/java-diff-utils/
+* https://jsoup.org/download
 
 Use:
 * Copy into cmsc420.utils package
