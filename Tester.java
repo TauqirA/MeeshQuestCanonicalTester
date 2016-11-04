@@ -37,13 +37,15 @@ public class Tester {
 	public static void main(String[] args) throws IOException {
 		TreeSet<Integer> testToCheck = new TreeSet<Integer>();
 		int start = 2600;
-		int end = 2650;
+		int end = 2840;
+		String test = "shortestPath";
+		
 		for(int i = start; i < end; i++){
 			System.out.println(i);
 			if(i == 2685 ) continue;//Long input that messes stuff up
 			Document doc = Jsoup.connect("https://cmsc420.cs.umd.edu/meeshquest/part2/input/"+i+"/").get();
 			String s = doc.getElementById("input").nextElementSibling().text();
-
+			if( test != null && !s.contains(test)) continue;
 			String outtext = doc.getElementById("output").nextElementSibling().nextElementSibling().text();
 			try (PrintStream out = new PrintStream(new FileOutputStream("testfiles/in.expoutput.xml"))) {
 				out.print(outtext);
