@@ -14,3 +14,5 @@ Use:
 
 I realize this is very "hacky" but it works well and is much faster then doing it manually.
 Please feel free to improve. 
+
+WHEN SUBMITTING UNCHECK Tester file. (Submit server does not have the jars)
