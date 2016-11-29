@@ -2,7 +2,7 @@
 Automatically using MeeshQuest Canonical Output from user Input. Runs mutiple tests based upon id. 
 
 External JARs required:
-* https://code.google.com/archive/p/java-diff-utils/
+* https://code.google.com/archive/p/java-diff-utils/downloads
 * https://jsoup.org/download
 
 Use:
