@@ -43,7 +43,7 @@ public class Tester {
 		for(int i = start; i < end; i++){
 			System.out.println(i);
 			if(i == 2685 ) continue;//Long input that messes stuff up
-			Document doc = Jsoup.connect("https://cmsc420.cs.umd.edu/meeshquest/part2/input/"+i+"/").get();
+			Document doc = Jsoup.connect("https://cmsc420.cs.umd.edu/meeshquest/part3/input/"+i+"/").get();
 			String s = doc.getElementById("input").nextElementSibling().text();
 			if( test != null && !s.contains(test)) continue;
 			String outtext = doc.getElementById("output").nextElementSibling().nextElementSibling().text();
