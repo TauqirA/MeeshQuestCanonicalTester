@@ -13,7 +13,7 @@ import java.util.TreeSet;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
-import cmsc420.meeshquest.part2.MeeshQuest;
+import cmsc420.meeshquest.part3.MeeshQuest;
 import difflib.Delta;
 import difflib.DiffUtils;
 import difflib.Patch;
